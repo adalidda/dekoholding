@@ -21,13 +21,9 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Our Core Business</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Deko Holding is operating in West Africa in six key business activities.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,8 +31,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Agricultural Services"
+              description="We provide turn-key services for the development of commercial plantations: feasibility study, pilot projects, land preparation, crop nursery, crop plantations."
               icon={Chat}
               iconColor="info"
               vertical
@@ -44,8 +40,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Agrifood Manufacturing"
+              description="We transform harvested crops into high value products such as cassava starch, bioethanol, animal feed, by-products for industries, etc..."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -53,8 +49,35 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Research & Innovation"
+              description="Our Research & Innovation Unit works with local and international researchers to disrupt the agrifood industry."
+              icon={Fingerprint}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Startups Incubator"
+              description="We nurture agrifood startups by providing our expertise, our business network and our global market. Moreover, we help them to catch with any funding opportunity."
+              icon={Fingerprint}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Agrifood Export"
+              description="We market our agrifood products in the local, regional and international markets."
+              icon={Fingerprint}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Deko Consortium"
+              description="Deko Consortium is a consortium of agrifood producers and manufacturers in Africa. Our members cooperate together on Research & Innovation, Branding and Access to the global market."
               icon={Fingerprint}
               iconColor="danger"
               vertical

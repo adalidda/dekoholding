@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/adalidda/deko/issues"
   },
-  "homepage": "https://pm.dekoholding.com",
+  "homepage": "https://chat.adalidda.com",
   "dependencies": {
     "@material-ui/core": "4.3.2",
     "@material-ui/icons": "4.2.1",
